@@ -1,3 +1,3 @@
 # React-Portfolio
 
-Portfolio using React.js
+Portfolio of representative projects using React.js
