@@ -8,13 +8,11 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Nazim Uddin</h2>
-            <img src="non.jpg" alt="avatar" style={{ height: "250px" }} />
+            <img src="Nazim.jpg" alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries
+              Full stack web developer, recently graduated from Berkeley coding
+              boot camp at UC Berkeley Extension. Skills: HTML5, CSS3,
+              Javascript, Node.js, React.js, MySQL, MongoDB, Python, Java, C#.
             </p>
           </Cell>
           <Cell col={6}>
@@ -35,7 +33,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-github" aria-hidden="true" />
-                    Check my projects
+                    <a href='https://github.com/nazim806'rel="noopener noreferrer" target="_blank">Check my projects </a>
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
@@ -50,8 +48,9 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-linkedin" aria-hidden="true" />
-                    LORESJCHSOCH
+                    <i class="fa fa-linkedin-square"  aria-hidden="true" />
+                    <a href='https://www.linkedin.com/in/nazim-uddin-5158ba17/'rel="noopener noreferrer" target="_blank">LinkedIn </a>
+                    
                   </ListItemContent>
                 </ListItem>
               </List>
