@@ -30,17 +30,18 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://www.everybodyplays.co.uk/images/gamefinderlogo.jpg) center / cover"
+                  "url(http://www.fitsumbelayneh.com/images/clicky%20game.png) center / cover"
               }}
             ></CardTitle>
             <CardText>
-              We have developed a react app that can be used to look up books
-              (Productive), or(||) look up games (Un-productive), Users can save
-              their recommendations for either type on a communal page.
+              Clicky game is a React memory game app using HTML, CSS, Javascript
+              and React.js . Click on an image to earn points, but don't click
+              on any more than once! At the end of the game you will see your
+              total score.
             </CardText>
             <CardActions border>
               <Button
-                href="https://github.com/vic30004/un-productive-"
+                href="https://github.com/nazim806/clicky-game"
                 rel="noopener noreferrer"
                 target="_blank"
                 colored
@@ -49,7 +50,7 @@ class Projects extends Component {
               </Button>
 
               <Button
-                href="https://un-productive.herokuapp.com/"
+                href="https://whispering-hollows-87010.herokuapp.com/"
                 rel="noopener noreferrer"
                 target="_blank"
                 colored
@@ -58,40 +59,28 @@ class Projects extends Component {
               </Button>
             </CardActions>
           </Card>
+
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://www.goldderby.com/wp-content/uploads/2019/09/Cover.jpg?w=620) center / cover"
+                  "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
               }}
             ></CardTitle>
-            <CardText>
-              Clicky Memory Game, Clicking A Unique Card Grants A Point and Will
-              Shuffle The Cards, Be Careful, You Can't Select The Same Card
-              Twice.
-            </CardText>
+            <CardText>Another React App</CardText>
             <CardActions border>
-              <Button
-                href="https://github.com/Noqzd9/clicky-memory-game"
-                rel="noopener noreferrer"
-                target="_blank"
-                colored
-              >
+              <Button href="" rel="noopener noreferrer" target="_blank" colored>
                 GitHub
               </Button>
 
-              <Button
-                href="https://nqzd.herokuapp.com/"
-                rel="noopener noreferrer"
-                target="_blank"
-                colored
-              >
+              <Button href="" rel="noopener noreferrer" target="_blank" colored>
                 Live Demo
               </Button>
             </CardActions>
           </Card>
+
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -125,18 +114,22 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://static.clubs.nfl.com/image/private/t_q-best/raiders/vr3yjkunosgv66diosbz) center / cover"
+                  "url(https://www.krogerkrazy.com/wp-content/uploads/2012/01/Redbox-Movie-Trivia.jpg) center / cover"
               }}
             ></CardTitle>
             <CardText>
-              Trivia game based on Bay Area sports teams 10 second timer to
-              answer questions, 8 questions, If wrong answered is chosen,
-              correct answer will appear, After all questions are submited:
-              player will recieve score card.
+              Movie Trivia Game: Test your knowledge of Hollywood movies with
+              this multiple choice trivia game. When you click Start, you will
+              be given 10 multiple-choice questions covering hollywood movie
+              trivia. You have 10 seconds to answer each question before time
+              runs out; if you finish early, you can quit sooner by clicking
+              Done. When the game ends, your score will be displayed for
+              you.This project was built with: HTML5, CSS3, JavaScript, jQuery,
+              and Bootstrap
             </CardText>
             <CardActions border>
               <Button
-                href="https://github.com/Noqzd9/TriviGame"
+                href="https://github.com/nazim806/Trivia-Game"
                 rel="noopener noreferrer"
                 target="_blank"
                 colored
@@ -145,7 +138,7 @@ class Projects extends Component {
               </Button>
 
               <Button
-                href="https://noqzd9.github.io/unit-4-game/"
+                href="https://nazim806.github.io/Trivia-Game/"
                 rel="noopener noreferrer"
                 target="_blank"
                 colored
@@ -161,15 +154,22 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/67958316_10218098316426941_8330553189052973056_n.jpg?_nc_cat=104&_nc_oc=AQnWycXltzDBHpn63J6OGDsz-FMZyKbQXe0vN7NP6j-6c3HQVONJ8J1HQw-aUBVkMldOMhaNYarLZcaM_J_xrjZa&_nc_ht=scontent-sjc3-1.xx&oh=5cd2fe425f3f0909fc7c87c10f95b2c6&oe=5E450586) center / cover"
+                  "url(https://apptimize.com/wp-content/uploads/2015/08/Train-Schedule-Board.jpg) center / cover"
               }}
             ></CardTitle>
             <CardText>
-              Created a proffesional dentist page for my cousin.
+              This is an app using Moment.js that allows a user to view train
+              schedules. Moment.js calculates the time until the next train.
+              This app is a Firebase backed train schedule application. It uses
+              HTML, CSS and jQuery to render the schedule and admin panel on the
+              web page. The app uses Firebase to host a globally available set
+              of data that will be retrieved and manipulated using Moment.js to
+              provide up-to-date information about various trains arrival times
+              and minutes until arrival.
             </CardText>
             <CardActions border>
               <Button
-                href="https://github.com/Noqzd9/Dental-Alberto"
+                href="https://github.com/nazim806/Train-Scheduler"
                 rel="noopener noreferrer"
                 target="_blank"
                 colored
@@ -178,7 +178,7 @@ class Projects extends Component {
               </Button>
 
               <Button
-                href="https://noqzd9.github.io/Dental-Alberto/"
+                href="https://nazim806.github.io/Train-Scheduler/"
                 rel="noopener noreferrer"
                 target="_blank"
                 colored
@@ -187,19 +187,29 @@ class Projects extends Component {
               </Button>
             </CardActions>
           </Card>
+
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://gamefabrique.com/storage/screenshots/gbc/m-and-ms-mini-madness-05.png) center / cover"
+                  "url(https://media3.giphy.com/media/26FLdmIp6wJr91JAI/giphy.gif) center / cover"
               }}
             ></CardTitle>
-            <CardText></CardText>
+            <CardText>
+              GifTastic is a fun and interactive game for web browsers. The app
+              dynamically update HTML pages with the jQuery library. This web
+              application searches the GIPHY API, an online database and search
+              engine that allows users to search for and share short looping
+              videos with no sound, that resemble animated GIF files. The
+              buttons on screen are predefined, but users can create new buttons
+              using the form on the right. Gifs can be played by clicking on
+              them, they are also presented with their rating.
+            </CardText>
             <CardActions border>
               <Button
-                href="https://github.com/Noqzd9/unit-4-game"
+                href="https://github.com/nazim806/GifTastic"
                 rel="noopener noreferrer"
                 target="_blank"
                 colored
@@ -208,7 +218,7 @@ class Projects extends Component {
               </Button>
 
               <Button
-                href="https://noqzd9.github.io/unit-4-game/"
+                href="https://nazim806.github.io/GifTastic/"
                 rel="noopener noreferrer"
                 target="_blank"
                 colored
@@ -230,16 +240,35 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
+                  "url(https://9to5google.com/wp-content/uploads/sites/4/2015/10/google-books.png?w=1000) center / cover"
               }}
             ></CardTitle>
-            <CardText></CardText>
+            <CardText>
+              React-based Google Books Search app. This SPA (Single Page
+              Application) uses [react-router-dom]to navigate, hide and show
+              your React components without changing the route within Express.
+              Using helper/util functions and React lifecycle methods to query
+              and display books based on user searches, this is a full MERN
+              stack application allows users to save books to a database to
+              refer to at a later date. Built with Node, Express and MongoDB,
+              and React-Toastify for custom alerts.
+            </CardText>
             <CardActions border>
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
+              <Button
+                href="https://github.com/nazim806/google-book-search"
+                rel="noopener noreferrer"
+                target="_blank"
+                colored
+              >
                 GitHub
               </Button>
 
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
+              <Button
+                href="https://damp-reaches-94807.herokuapp.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                colored
+              >
                 Live Demo
               </Button>
             </CardActions>
@@ -251,12 +280,23 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
+                  "url(https://i.pinimg.com/474x/b4/c7/b0/b4c7b07468b71b8ef6292c571dc6794d--new-york-times-summary.jpg) center / cover"
               }}
             ></CardTitle>
-            <CardText></CardText>
+            <CardText>
+              Read articles scraped from New York Times.This is an app that uses
+              Cheerio to scrape the New York Times US section and pull the most
+              recent articles. Technologies used: HTML5, CSS3, Bootstrap,
+              Javascript, React, Node.js, Express.js, Cheerios, MongoDB,
+              Mongoose, Handlebars.
+            </CardText>
             <CardActions border>
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
+              <Button
+                href="https://github.com/nazim806/mongo-scraper-digest"
+                rel="noopener noreferrer"
+                target="_blank"
+                colored
+              >
                 GitHub
               </Button>
 
