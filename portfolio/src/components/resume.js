@@ -56,15 +56,83 @@ class Resume extends Component {
             </p>
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h3>Projects</h3>
-            <p>Summary: brief description of Project Technology Used:</p>
-            <a>Link</a>
-            <a>Live link</a>
-            <p>Summary: brief description of Project Technology Used:</p>
-            <a>Link</a>
-            <a>Live link</a>
-            <p>Summary: brief description of Project Technology Used:</p>
-            <a>Link</a>
-            <a>Live link</a>
+            <h4>Google Book Search App</h4>
+            <p>
+              Summary: Google book search is a React-based books search app.
+              This Single Page Application uses [react-router-dom]to navigate,
+              hide and show your React components without changing the route
+              within Express. Technologies used:HTML, CSS, Javascript,
+              Bootstrap, Express, Node.js, React, MongoDB, and Heroku.
+            </p>
+            <h6>Github Link</h6>
+            <a
+              href="https://github.com/nazim806/google-book-search"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Github Repo
+            </a>
+
+            <h6>Live Link</h6>
+            <a
+              href="https://damp-reaches-94807.herokuapp.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Google book search
+            </a>
+
+            <h4>Mongo Scraper Digest</h4>
+            <p>
+              Summary:Read articles scraped from New York Times. This is an app
+              that uses Cheerio to scrape the New York Times US section and pull
+              the most recent articles. Technology Used:HTML5, CSS3, Bootstrap,
+              Javascript, React, Node.js, Express.js, Cheerios, MongoDB,
+              Mongoose, Handlebars.
+            </p>
+            <h6>Github Link</h6>
+            <a
+              href="https://github.com/nazim806/mongo-scraper-digest"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Github Repo
+            </a>
+            <h6>Live Link</h6>
+            <a
+              href="https://mongo-scraper-digest.herokuapp.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              NYT Digest
+            </a>
+
+            <h4>Train Scheduler</h4>
+            <p>
+              Summary: This is a Firebase backed train schedule application. It
+              uses HTML, CSS and jQuery to render the schedule and admin panel
+              on the web page. The app uses Firebase to host a globally
+              available set of data that will be retrieved and manipulated using
+              Moment.js to provide up-to-date information about various trains
+              arrival times and minutes until arrival. Technology Used: HTML,
+              CSS, Javascript, and Firebase
+            </p>
+            <h6>Github Link</h6>
+            <a
+              href="https://github.com/nazim806/Train-Scheduler"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Github Repo
+            </a>
+            <h6>Live Link</h6>
+            <a
+              href="https://nazim806.github.io/Train-Scheduler/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Train Scheduler
+            </a>
 
             <h3>Experience</h3>
             <Experience
@@ -105,6 +173,18 @@ class Resume extends Component {
               schoolName="University of Wisconsin-Milwaukee"
               schoolDescription="PhD from the Department of Chemistry and Biochemistry. Researched on Asymmetric Organic Synthesis and catalysis."
             />
+            <p>
+              {" "}
+              <strong>Publications:</strong>
+              <a
+                href="https://github.com/nazim806/Train-Scheduler"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {" "}
+                Google Scholar{" "}
+              </a>
+            </p>
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h3>Skills</h3>
