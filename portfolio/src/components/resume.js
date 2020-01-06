@@ -34,7 +34,7 @@ class Resume extends Component {
               Passionate full-stack web developer with a background in science.
               Educated at the University of California-Berkeley Extension with
               skills in HTML5, CSS, JavaScript and React. Innovative problem
-              solver who is passionate about developing apps with cutting edge
+              solver who is passionate about developing apps with cutting-edge
               design. Strengths in creativity, teamwork, and building projects
               from ideation to execution. Some of the technologies I work with
               are mySQL, MongoDB, Node.JS, Linux/Unix, Amazon Web Services, Git,
@@ -59,7 +59,7 @@ class Resume extends Component {
             <h4>Google Book Search App</h4>
             <p>
               Summary: Google book search is a React-based books search app.
-              This Single Page Application uses [react-router-dom]to navigate,
+              This Single Page Application uses react-router-dom to navigate,
               hide and show your React components without changing the route
               within Express. Technologies used:HTML, CSS, Javascript,
               Bootstrap, Express, Node.js, React, MongoDB, and Heroku.

@@ -22,25 +22,28 @@ class Landing extends Component {
           <p>HTML/CSS | JavaScript | React | MySQL | NodeJS | Express | MongoDB | Python</p>
 
         <div className="social-links">
-
-          
-          
-          <span> 
+       
             <a href="https://www.linkedin.com/in/nazim-uddin-5158ba17/" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
+            
+            <i className="fa fa-linkedin-square" 
+              aria-hidden="true" />
+            
           </a>
-          </span>
-          <span>
+          
+          <span > &nbsp;
             <a href="https://github.com/nazim806" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
           </span>
+            
           
-
-        
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+         <span > &nbsp;
+           <a href="http://google.com" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-google" aria-hidden="true" />
-          </a>
+          </a> 
+          </span>
+        
+          
 
         </div>
             </div>

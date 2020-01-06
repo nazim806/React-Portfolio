@@ -8,11 +8,15 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Nazim Uddin</h2>
-            <img src="Nazim.jpg" alt="avatar" style={{ height: "200px" }} />
-            <p style={{ width: "100%", margin: "auto", paddingTop: "1em" }}>
+            <img src="Nazim.jpg" alt="avatar" style={{ height: "150px" }} />
+            <br></br>
+            <br></br>
+            
+            <p style={{ width: "100%", fontSize:"16px", margin: "auto", paddingTop: "1em" }}>
               
               Full stack web developer, recently graduated from Berkeley coding
-              boot camp at UC Berkeley Extension.  
+              boot camp at the University of California-Berkeley Extension.  
+              <br></br>
               <br></br>
               <strong> 
               Skills: HTML5, CSS3,

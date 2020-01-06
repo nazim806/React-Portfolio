@@ -34,10 +34,10 @@ class Projects extends Component {
               }}
             ></CardTitle>
             <CardText>
-              Clicky game is a React memory game app using HTML, CSS, Javascript
-              and React.js . Click on an image to earn points, but don't click
-              on any more than once! At the end of the game you will see your
-              total score.
+              <strong>Clicky Game:</strong> Clicky game is a React memory game
+              app using HTML, CSS, Javascript and React.js . Click on an image
+              to earn points, but don't click on any more than once! At the end
+              of the game you will see your total score.
             </CardText>
             <CardActions border>
               <Button
@@ -118,14 +118,14 @@ class Projects extends Component {
               }}
             ></CardTitle>
             <CardText>
-              Movie Trivia Game: Test your knowledge of Hollywood movies with
-              this multiple choice trivia game. When you click Start, you will
-              be given 10 multiple-choice questions covering hollywood movie
-              trivia. You have 10 seconds to answer each question before time
-              runs out; if you finish early, you can quit sooner by clicking
-              Done. When the game ends, your score will be displayed for
-              you.This project was built with: HTML5, CSS3, JavaScript, jQuery,
-              and Bootstrap
+              <strong>Movie Trivia Game:</strong> Test your knowledge of
+              Hollywood movies with this multiple choice trivia game. When you
+              click Start, you will be given 10 multiple-choice questions
+              covering hollywood movie trivia. You have 10 seconds to answer
+              each question before time runs out; if you finish early, you can
+              quit sooner by clicking Done. When the game ends, your score will
+              be displayed for you.This project was built with: HTML5, CSS3,
+              JavaScript, jQuery, and Bootstrap
             </CardText>
             <CardActions border>
               <Button
@@ -154,18 +154,18 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://apptimize.com/wp-content/uploads/2015/08/Train-Schedule-Board.jpg) center / cover"
+                  "url(https://specials-images.forbesimg.com/imageserve/5d7254a944f2b2000803d3fe/960x0.jpg?fit=scale) center / cover"
               }}
             ></CardTitle>
             <CardText>
-              This is an app using Moment.js that allows a user to view train
-              schedules. Moment.js calculates the time until the next train.
-              This app is a Firebase backed train schedule application. It uses
-              HTML, CSS and jQuery to render the schedule and admin panel on the
-              web page. The app uses Firebase to host a globally available set
-              of data that will be retrieved and manipulated using Moment.js to
-              provide up-to-date information about various trains arrival times
-              and minutes until arrival.
+              <strong>Train Scheduler:</strong>This is an app using Moment.js
+              that allows a user to view train schedules. Moment.js calculates
+              the time until the next train. This app is a Firebase backed train
+              schedule application. It uses HTML, CSS and jQuery to render the
+              schedule and admin panel on the web page. The app uses Firebase to
+              host a globally available set of data that will be retrieved and
+              manipulated using Moment.js to provide up-to-date information
+              about various trains arrival times and minutes until arrival.
             </CardText>
             <CardActions border>
               <Button
@@ -198,14 +198,15 @@ class Projects extends Component {
               }}
             ></CardTitle>
             <CardText>
-              GifTastic is a fun and interactive game for web browsers. The app
-              dynamically update HTML pages with the jQuery library. This web
-              application searches the GIPHY API, an online database and search
-              engine that allows users to search for and share short looping
-              videos with no sound, that resemble animated GIF files. The
-              buttons on screen are predefined, but users can create new buttons
-              using the form on the right. Gifs can be played by clicking on
-              them, they are also presented with their rating.
+              <strong>GifTastic:</strong> GifTastic is a fun and interactive
+              game for web browsers. The app dynamically update HTML pages with
+              the jQuery library. This web application searches the GIPHY API,
+              an online database and search engine that allows users to search
+              for and share short looping videos with no sound, that resemble
+              animated GIF files. The buttons on screen are predefined, but
+              users can create new buttons using the form on the right. Gifs can
+              be played by clicking on them, they are also presented with their
+              rating.
             </CardText>
             <CardActions border>
               <Button
@@ -244,14 +245,15 @@ class Projects extends Component {
               }}
             ></CardTitle>
             <CardText>
-              React-based Google Books Search app. This SPA (Single Page
-              Application) uses [react-router-dom]to navigate, hide and show
-              your React components without changing the route within Express.
-              Using helper/util functions and React lifecycle methods to query
-              and display books based on user searches, this is a full MERN
-              stack application allows users to save books to a database to
-              refer to at a later date. Built with Node, Express and MongoDB,
-              and React-Toastify for custom alerts.
+              <strong>Google Books Search App:</strong> React-based Google Books
+              Search app. This SPA (Single Page Application) uses
+              [react-router-dom]to navigate, hide and show your React components
+              without changing the route within Express. Using helper/util
+              functions and React lifecycle methods to query and display books
+              based on user searches, this is a full MERN stack application
+              allows users to save books to a database to refer to at a later
+              date. Built with Node, Express and MongoDB, and React-Toastify for
+              custom alerts.
             </CardText>
             <CardActions border>
               <Button
@@ -284,11 +286,12 @@ class Projects extends Component {
               }}
             ></CardTitle>
             <CardText>
-              Read articles scraped from New York Times.This is an app that uses
-              Cheerio to scrape the New York Times US section and pull the most
-              recent articles. Technologies used: HTML5, CSS3, Bootstrap,
-              Javascript, React, Node.js, Express.js, Cheerios, MongoDB,
-              Mongoose, Handlebars.
+              <strong>New York Times Mongo Digest:</strong> Read articles
+              scraped from New York Times.This is an app that uses Cheerio to
+              scrape the New York Times US section and pull the most recent
+              articles. Technologies used: HTML5, CSS3, Bootstrap, Javascript,
+              React, Node.js, Express.js, Cheerios, MongoDB, Mongoose,
+              Handlebars.
             </CardText>
             <CardActions border>
               <Button
