@@ -66,41 +66,41 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
+                  "url(https://bloximages.newyork1.vip.townnews.com/lancasteronline.com/content/tncms/assets/v3/editorial/8/f1/8f1e40aa-dc41-11e3-99ad-0017a43b2370/5374d68354085.image.jpg) center / cover"
               }}
             ></CardTitle>
-            <CardText>Another React App</CardText>
+            <CardText>
+              <strong>Food Truck Finder:</strong>
+              This App allows users to find Food Trucks in the San Francisco
+              Area, It provides information about food trucks location and their
+              current address, recipes and vendor registration(Book events). The
+              App uses Node JS/React Router Dom, Redux, and Axios for the server
+              and routing, MongoDB/Mongoose for the database coming from our
+              local and Remote DB. For the layout of our site we used pure React
+              to implement master components that make it easy and simple to
+              navigate in the most convenient way.
+            </CardText>
             <CardActions border>
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
+              <Button
+                href="https://github.com/nazim806/Food-Truck-Finder"
+                rel="noopener noreferrer"
+                target="_blank"
+                colored
+              >
                 GitHub
               </Button>
 
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
+              <Button
+                href="http://foodtruck-finder.s3-website-us-west-1.amazonaws.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                colored
+              >
                 Live Demo
               </Button>
             </CardActions>
           </Card>
 
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
-              }}
-            ></CardTitle>
-            <CardText></CardText>
-            <CardActions border>
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
-                GitHub
-              </Button>
-
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
-                Live Demo
-              </Button>
-            </CardActions>
-          </Card>
         </div>
       );
 
@@ -308,96 +308,77 @@ class Projects extends Component {
               </Button>
             </CardActions>
           </Card>
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
-              }}
-            ></CardTitle>
-            <CardText></CardText>
-            <CardActions border>
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
-                GitHub
-              </Button>
 
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
-                Live Demo
-              </Button>
-            </CardActions>
-          </Card>
         </div>
       );
 
       //LAST PAGE
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div className="projects-grid">
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
-              }}
-            ></CardTitle>
-            <CardText></CardText>
-            <CardActions border>
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
-                GitHub
-              </Button>
+    // } else if (this.state.activeTab === 3) {
+    //   return (
+    //     <div className="projects-grid">
+    //       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+    //         <CardTitle
+    //           style={{
+    //             color: "#fff",
+    //             height: "176px",
+    //             background:
+    //               "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
+    //           }}
+    //         ></CardTitle>
+    //         <CardText></CardText>
+    //         <CardActions border>
+    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+    //             GitHub
+    //           </Button>
 
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
-                Live Demo
-              </Button>
-            </CardActions>
-          </Card>
+    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+    //             Live Demo
+    //           </Button>
+    //         </CardActions>
+    //       </Card>
 
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
-              }}
-            ></CardTitle>
-            <CardText></CardText>
-            <CardActions border>
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
-                GitHub
-              </Button>
+    //       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+    //         <CardTitle
+    //           style={{
+    //             color: "#fff",
+    //             height: "176px",
+    //             background:
+    //               "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
+    //           }}
+    //         ></CardTitle>
+    //         <CardText></CardText>
+    //         <CardActions border>
+    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+    //             GitHub
+    //           </Button>
 
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
-                Live Demo
-              </Button>
-            </CardActions>
-          </Card>
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
-              }}
-            ></CardTitle>
-            <CardText></CardText>
-            <CardActions border>
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
-                GitHub
-              </Button>
+    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+    //             Live Demo
+    //           </Button>
+    //         </CardActions>
+    //       </Card>
+    //       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+    //         <CardTitle
+    //           style={{
+    //             color: "#fff",
+    //             height: "176px",
+    //             background:
+    //               "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
+    //           }}
+    //         ></CardTitle>
+    //         <CardText></CardText>
+    //         <CardActions border>
+    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+    //             GitHub
+    //           </Button>
 
-              <Button href="" rel="noopener noreferrer" target="_blank" colored>
-                Live Demo
-              </Button>
-            </CardActions>
-          </Card>
-        </div>
-      );
+    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+    //             Live Demo
+    //           </Button>
+    //         </CardActions>
+    //       </Card>
+    //     </div>
+    //   );
     }
   }
   render() {
@@ -411,7 +392,6 @@ class Projects extends Component {
           <Tab>React</Tab>
           <Tab>Javascript</Tab>
           <Tab>MySql/MongoDB</Tab>
-          <Tab>One Page</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>

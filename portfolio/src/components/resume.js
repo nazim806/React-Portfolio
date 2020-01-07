@@ -21,10 +21,10 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Location</h5>
             <p>Berkeley, CA 94702</p>
-            <h5>Email</h5>
+            <h5>Email:</h5>
             <p>umnazim@gmail.com</p>
-            <h5>Web</h5>
-            <p>nazimonline.info</p>
+            <h5>Web:</h5>
+            <a href="https://nazimonline.info/">nazimonline.info</a>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
 
