@@ -177,7 +177,7 @@ class Resume extends Component {
               {" "}
               <strong>Publications:</strong>
               <a
-                href="https://github.com/nazim806/Train-Scheduler"
+                href="https://scholar.google.com/citations?user=qL1NUIMAAAAJ"
                 rel="noopener noreferrer"
                 target="_blank"
               >
