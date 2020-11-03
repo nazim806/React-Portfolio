@@ -24,13 +24,13 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "550", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
+                height: "175px",
                 background:
-                  "url(http://www.fitsumbelayneh.com/images/clicky%20game.png) center / cover"
+                  "url(https://www.worldsbestbars.com/wp-content/uploads/2018/09/the-best-cocktails-to-sip-during-a-netflix-binge.png) center / cover"
               }}
             ></CardTitle>
             <CardText>
@@ -59,12 +59,47 @@ class Projects extends Component {
               </Button>
             </CardActions>
           </Card>
+         
 
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "550", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
+                height: "200px",
+                background:
+                  "url(https://images-production.bookshop.org/spree/images/attachments/11428870/original/9781677988211.jpg?1582256063) center / cover"
+              }}
+            ></CardTitle>
+            <CardText>
+              <strong>Finance App:</strong> Personal finance app using React hooks (useState, useContext, useReducer) and the context API. Here you can track your budget, look at history add new transaction, or delete old one..
+            </CardText>
+            <CardActions border>
+              <Button
+                href="https://github.com/nazim806/finance-app"
+                rel="noopener noreferrer"
+                target="_blank"
+                colored
+              >
+                GitHub
+              </Button>
+
+              <Button
+                href="https://nazim806.github.io/finance-app/"
+                rel="noopener noreferrer"
+                target="_blank"
+                colored
+              >
+                Live Demo
+              </Button>
+            </CardActions>
+          </Card>
+
+
+          <Card shadow={5} style={{ minWidth: "550", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "150px",
                 background:
                   "url(https://bloximages.newyork1.vip.townnews.com/lancasteronline.com/content/tncms/assets/v3/editorial/8/f1/8f1e40aa-dc41-11e3-99ad-0017a43b2370/5374d68354085.image.jpg) center / cover"
               }}
@@ -100,7 +135,6 @@ class Projects extends Component {
               </Button>
             </CardActions>
           </Card>
-
         </div>
       );
 
@@ -308,77 +342,76 @@ class Projects extends Component {
               </Button>
             </CardActions>
           </Card>
-
         </div>
       );
 
       //LAST PAGE
-    // } else if (this.state.activeTab === 3) {
-    //   return (
-    //     <div className="projects-grid">
-    //       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-    //         <CardTitle
-    //           style={{
-    //             color: "#fff",
-    //             height: "176px",
-    //             background:
-    //               "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
-    //           }}
-    //         ></CardTitle>
-    //         <CardText></CardText>
-    //         <CardActions border>
-    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
-    //             GitHub
-    //           </Button>
+      // } else if (this.state.activeTab === 3) {
+      //   return (
+      //     <div className="projects-grid">
+      //       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+      //         <CardTitle
+      //           style={{
+      //             color: "#fff",
+      //             height: "176px",
+      //             background:
+      //               "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
+      //           }}
+      //         ></CardTitle>
+      //         <CardText></CardText>
+      //         <CardActions border>
+      //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+      //             GitHub
+      //           </Button>
 
-    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
-    //             Live Demo
-    //           </Button>
-    //         </CardActions>
-    //       </Card>
+      //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+      //             Live Demo
+      //           </Button>
+      //         </CardActions>
+      //       </Card>
 
-    //       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-    //         <CardTitle
-    //           style={{
-    //             color: "#fff",
-    //             height: "176px",
-    //             background:
-    //               "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
-    //           }}
-    //         ></CardTitle>
-    //         <CardText></CardText>
-    //         <CardActions border>
-    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
-    //             GitHub
-    //           </Button>
+      //       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+      //         <CardTitle
+      //           style={{
+      //             color: "#fff",
+      //             height: "176px",
+      //             background:
+      //               "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
+      //           }}
+      //         ></CardTitle>
+      //         <CardText></CardText>
+      //         <CardActions border>
+      //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+      //             GitHub
+      //           </Button>
 
-    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
-    //             Live Demo
-    //           </Button>
-    //         </CardActions>
-    //       </Card>
-    //       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-    //         <CardTitle
-    //           style={{
-    //             color: "#fff",
-    //             height: "176px",
-    //             background:
-    //               "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
-    //           }}
-    //         ></CardTitle>
-    //         <CardText></CardText>
-    //         <CardActions border>
-    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
-    //             GitHub
-    //           </Button>
+      //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+      //             Live Demo
+      //           </Button>
+      //         </CardActions>
+      //       </Card>
+      //       <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+      //         <CardTitle
+      //           style={{
+      //             color: "#fff",
+      //             height: "176px",
+      //             background:
+      //               "url(https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg) center / cover"
+      //           }}
+      //         ></CardTitle>
+      //         <CardText></CardText>
+      //         <CardActions border>
+      //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+      //             GitHub
+      //           </Button>
 
-    //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
-    //             Live Demo
-    //           </Button>
-    //         </CardActions>
-    //       </Card>
-    //     </div>
-    //   );
+      //           <Button href="" rel="noopener noreferrer" target="_blank" colored>
+      //             Live Demo
+      //           </Button>
+      //         </CardActions>
+      //       </Card>
+      //     </div>
+      //   );
     }
   }
   render() {

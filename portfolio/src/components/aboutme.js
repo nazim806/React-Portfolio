@@ -31,11 +31,11 @@ class About extends Component {
           <br></br>
           <strong>Apps:</strong> Mobile, ReactJS
           <br></br>
-          <strong>Cloud:</strong> AWS, Google, Firebase
+          <strong>Cloud:</strong> AWS,  Firebase
           <br></br>
           <strong>Database:</strong> Firebase, MySQL, MongoDB
           <br></br>
-          <strong>Languages:</strong> Python, Java, C#
+          <strong>Languages:</strong> Python, Java, C++
         </p>
       </div>
     );

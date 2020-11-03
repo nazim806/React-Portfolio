@@ -14,13 +14,12 @@ class Contact extends Component {
             
             <p style={{ width: "100%", fontSize:"16px", margin: "auto", paddingTop: "1em" }}>
               
-              Full stack web developer, recently graduated from Berkeley coding
-              boot camp at the University of California-Berkeley Extension.  
+              Full stack web developer in San Francisco Bay Area.  
               <br></br>
               <br></br>
               <strong> 
               Skills: HTML5, CSS3,
-              Javascript, Node.js, React.js, MySQL, MongoDB, Python, Java, C#.
+              Javascript, Node.js, React.js, MySQL, MongoDB, Python, AWS, React-Native, Java, C++.
               </strong>
             </p>
           </Cell>
@@ -65,7 +64,7 @@ class Contact extends Component {
                   >
                     <i class="fa fa-linkedin-square" aria-hidden="true" />
                     <a
-                      href="https://www.linkedin.com/in/nazim-uddin-5158ba17/"
+                      href="https://www.linkedin.com/in/nazim-u-8168231ba/"
                       rel="noopener noreferrer"
                       target="_blank"
                     >

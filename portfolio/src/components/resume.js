@@ -51,7 +51,7 @@ class Resume extends Component {
                 <li>React</li>
                 <li>mySQL</li>
                 <li>MongoDB</li>
-                <li>Python, Java, C#</li>
+                <li>Python, Java, C++</li>
               </ul>
             </p>
             <hr style={{ borderTop: "3px solid #e22947" }} />
@@ -81,6 +81,33 @@ class Resume extends Component {
             >
               Google book search
             </a>
+
+           <h4>Finanace App</h4>
+           <p>
+              Summary: This is a personal finance app using React hooks (useState, useContext, useReducer) and the context API. Here you can track your budget, look at history add new transaction, or delete old one.  Technologies used:HTML, CSS, Javascript,
+              Bootstrap, Express, Node.js, React, MongoDB, and Heroku.
+            </p>
+
+           <h6>Github Link</h6>
+            <a
+              href="https://github.com/nazim806/finance-app/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Github Repo
+            </a>
+
+
+           <h6>Live Link</h6>
+  <a 
+  
+  href = "https://nazim806.github.io/finance-app/"
+  rel = "noopener noreferrer"
+  target = "_blank"
+  >Finance App
+
+  </a>
+   
 
             <h4>Mongo Scraper Digest</h4>
             <p>
@@ -138,28 +165,12 @@ class Resume extends Component {
             <Experience
               startYear={2019}
               endYear={2020}
-              jobName="Scientist I, Zymergen Inc., Emeryville, CA"
-              jobDescription="Development of adhesives and coatings materials from bio-reachable molecules."
+              jobName="Full Stack Engineer, Code with Corgis,Berkeley, CA"
+              jobDescription="	Write code for new features for consumer facing line of products. Participate in the design and deployment of tests and experiments, which seek to improve a specific metric. Continuously improve code, ensuring that it can sustain rapid experimentation
+"
             />
-            <Experience
-              startYear={2018}
-              endYear={2018}
-              jobName="Research Associate, Michigan State University, East Lansing, MI"
-              jobDescription="Developed anti-smudge, self-healing coatings"
-            />
-            <Experience
-              startYear={2016}
-              endYear={2017}
-              jobName="Postdoctoral Research Associate, Utah State University, Logan, UT"
-              jobDescription="Developed bio-based adhesives from pyrolysis bio-fuel."
-            />
-            <Experience
-              startYear={2015}
-              endYear={2016}
-              jobName="Scientist, R&D, MilliporeSigma, Milwaukee, WI"
-              jobDescription="Custom synthesis and development of organometallic catalysts."
-            />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
+             
+          
             <h3>Education</h3>
             <Education
               startYear={2019}
@@ -188,14 +199,14 @@ class Resume extends Component {
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h3>Skills</h3>
-            <Skills skill="javascript" progress={85} />
-            <Skills skill="HTML/CSS" progress={90} />
-            <Skills skill="NodeJS" progress={70} />
-            <Skills skill="React" progress={65} />
-            <Skills skill="MongoDB" progress={60} />
-            <Skills skill="Python" progress={75} />
-            <skills skill="Java" progress={60} />
-            <skills skill="C# " progress={60} />
+            <Skills skill="javascript" progress={95} />
+            <Skills skill="HTML/CSS" progress={95} />
+            <Skills skill="NodeJS" progress={90} />
+            <Skills skill="React" progress={95} />
+            <Skills skill="MongoDB" progress={95} />
+            <Skills skill="Python" progress={95} />
+            <skills skill="Java" progress={70} />
+            <skills skill="C++ " progress={70} />
           </Cell>
         </Grid>
       </div>
