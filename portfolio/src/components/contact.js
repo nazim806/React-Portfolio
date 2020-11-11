@@ -8,7 +8,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Nazim Uddin</h2>
-            <img src="Nazim.jpg" alt="avatar" style={{ height: "150px" }} />
+            <img src="nazim.jpg" alt="avatar" style={{ height: "150px" }} />
             <br></br>
             <br></br>
             
