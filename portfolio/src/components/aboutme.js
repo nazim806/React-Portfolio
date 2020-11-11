@@ -9,7 +9,8 @@ class About extends Component {
           {" "}
           <h6>
             Hi, my name is Nazim Uddin, I am a full-stack software developer. I
-            am very much enthusiastic about software development and learning new things.I have designed and developed efficient and maintainable software according to the business objectives and needs of various clients. 
+            am very much enthusiastic about software development and learning 
+            new things.I have designed and developed efficient and maintainable software according to the business objectives and needs of various clients. 
              I enjoy each and every aspect of software
             development, and love building sites & mobile apps from start to
             finish. I'm available for full-time software developer position.
@@ -21,7 +22,6 @@ class About extends Component {
             <strong>Skills:</strong>
           </h5>
         </p>
-
         <p style={{ width: "90%", margin: "auto", paddingTop: "1em" }}>
           <strong>Front-end: </strong> HTML5, CSS3, Javascript, ES6, ReactJS
           <br></br>

@@ -12,7 +12,7 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div>
-              <img src="Nazim.jpg" alt="avatar" className="avatar-img" />
+              <img src= "nazim.jpg" alt="avatar" className="avatar-img" />
             </div>
             <h2 style={{ paddingTop: "2em" }}>Nazim Uddin</h2>
             <h4 style={{ color: "grey" }}>Programmer</h4>

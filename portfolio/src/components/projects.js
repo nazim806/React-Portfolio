@@ -30,7 +30,7 @@ class Projects extends Component {
                 color: "#fff",
                 height: "175px",
                 background:
-                  "url(https://www.worldsbestbars.com/wp-content/uploads/2018/09/the-best-cocktails-to-sip-during-a-netflix-binge.png)"
+                  "url(https://www.worldsbestbars.com/wp-content/uploads/2018/09/the-best-cocktails-to-sip-during-a-netflix-binge.png)center / cover"
               }}
             ></CardTitle>
             <CardText>

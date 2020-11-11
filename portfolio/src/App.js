@@ -11,18 +11,18 @@ class App extends Component {
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
-                 <Link to="./aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/React-Portfolio/resume">Resume</Link>
+                 <Link to="/React-Portfolio/aboutme">About Me</Link>
+                <Link to="/React-Portfolio/projects">Projects</Link>
+                <Link to="/React-Portfolio/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/React-Portfolio/resume">Resume</Link>
+              <Link to="/React-Portfolio/aboutme">About Me</Link>
+              <Link to="/React-Portfolio/projects">Projects</Link>
+              <Link to="/React-Portfolio/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
