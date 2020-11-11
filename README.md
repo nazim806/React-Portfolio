@@ -1,6 +1,6 @@
 # React-Portfolio
 
-Link: https://nazim806.github.io/projects
+Link: https://nazim806.github.io/React-Portfolio/
 
 Portfolio of representative projects using React.js
 
