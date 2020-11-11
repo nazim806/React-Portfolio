@@ -9,10 +9,8 @@ class About extends Component {
           {" "}
           <h6>
             Hi, my name is Nazim Uddin, I am a full-stack software developer. I
-            am very much enthusiastic about software development and learning
-            new things. Recently, I have graduated from a coding boot camp at
-            the UC-Berkeley Extension. My skills are broad: front end to back
-            end web development. I enjoy each and every aspect of software
+            am very much enthusiastic about software development and learning new things.I have designed and developed efficient and maintainable software according to the business objectives and needs of various clients. 
+             I enjoy each and every aspect of software
             development, and love building sites & mobile apps from start to
             finish. I'm available for full-time software developer position.
           </h6>

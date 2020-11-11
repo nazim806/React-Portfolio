@@ -19,7 +19,7 @@ class Contact extends Component {
               <br></br>
               <strong> 
               Skills: HTML5, CSS3,
-              Javascript, Node.js, React.js, MySQL, MongoDB, Python, AWS, React-Native, Java, C++.
+              Javascript, Node.js, React.js, MySQL, MongoDB, Python, AWS(EC2, S3), React-Native, Java, C++.
               </strong>
             </p>
           </Cell>
@@ -55,7 +55,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    umnazim@gmail.com
+                    nazimsf4@gmail.com
                   </ListItemContent>
                 </ListItem>
                 <ListItem>

@@ -17,14 +17,14 @@ class Resume extends Component {
             <h2 style={{ paddingTop: "2em" }}>Nazim Uddin</h2>
             <h4 style={{ color: "grey" }}>Programmer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <p>Berkeley Coding boot camp</p>
+            <p>Full Stack Web Developer</p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Location</h5>
             <p>Berkeley, CA 94702</p>
             <h5>Email:</h5>
-            <p>umnazim@gmail.com</p>
+            <p>nazimsf4@gmail.com</p>
             <h5>Web:</h5>
-            <a href="https://nazimonline.info/">nazimonline.info</a>
+            <a href="https://nazim806.github.io/projects">Portfolio</a>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
 
@@ -38,7 +38,7 @@ class Resume extends Component {
               design. Strengths in creativity, teamwork, and building projects
               from ideation to execution. Some of the technologies I work with
               are mySQL, MongoDB, Node.JS, Linux/Unix, Amazon Web Services, Git,
-              C#, Python and Java. Excited to leverage skills in the future as
+              C++, Python and Java. Excited to leverage skills in the future as
               part of a fast-paced, quality-driven team in order to build better
               experiences on the web.
             </p>
